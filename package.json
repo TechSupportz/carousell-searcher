@@ -1,0 +1,16 @@
+{
+  "name": "carousell-searcher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "scout": "node src/carousell-ipad-pro-scout.mjs",
+    "scout:json": "node src/carousell-ipad-pro-scout.mjs --json",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {}
+}

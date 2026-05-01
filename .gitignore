@@ -1,0 +1,4 @@
+node_modules/
+.carousell-scout-state.json
+debug-output/
+*.log
